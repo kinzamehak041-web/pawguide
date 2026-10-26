@@ -36,7 +36,7 @@ async function search() {
   grid.innerHTML = pets
     .map(
       (p) => `
-    <div class="card" tabindex="0" data-id="${esc(p.id)}">
+    <a class="card" href="/pets/${esc(p.id)}" data-id="${esc(p.id)}">
       <div class="emoji">${p.emoji}</div>
       <h3>${esc(p.name)}</h3>
       <p>${esc(p.summary)}</p>
@@ -45,7 +45,7 @@ async function search() {
         <span class="tag">${esc(p.lifespan)}</span>
         <span class="tag">${esc(p.category)}</span>
       </div>
-    </div>`
+    </a>`
     )
     .join("");
   empty.hidden = pets.length > 0;
@@ -90,16 +90,6 @@ function showList() {
   detailView.hidden = true;
 }
 
-grid.addEventListener("click", (e) => {
-  const c = e.target.closest(".card");
-  if (c) openPet(c.dataset.id);
-});
-grid.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") {
-    const c = e.target.closest(".card");
-    if (c) openPet(c.dataset.id);
-  }
-});
 $("#search-form").addEventListener("submit", (e) => { e.preventDefault(); search(); });
 $("#back").onclick = showList;
 $("#home-link").onclick = (e) => { e.preventDefault(); $("#q").value = ""; activeCategory = ""; loadCategories(); search(); };

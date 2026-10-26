@@ -69,3 +69,16 @@ body {
   .search { border-radius: 18px; flex-direction: column; }
   .search button { width: 100%; }
 }
+
+a.card { display: block; color: inherit; text-decoration: none; }
+a.tag { text-decoration: none; display: inline-block; }
+a.tag:hover { background: #ffe3c2; }
+a.back { display: inline-block; text-decoration: none; }
+.pagehead { background: linear-gradient(135deg, #ffe3c2, #f9b97a); }
+.detail-head h1 { margin: 0; font-size: 2rem; }
+.section h2 { margin: 0 0 10px; font-size: 1.17rem; }
+.section.warn h2 { color: var(--red); }
+.section.tipbox h2 { color: var(--green); }
+.morehead { margin: 32px 0 12px; }
+.browse { padding-top: 0; }
+.browse h2 { margin-bottom: 12px; }

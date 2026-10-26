@@ -17,6 +17,8 @@ const MIME = {
   ".jpg": "image/jpeg",
   ".svg": "image/svg+xml",
   ".ico": "image/x-icon",
+  ".xml": "application/xml; charset=utf-8",
+  ".txt": "text/plain; charset=utf-8",
 };
 
 // Simple scoring search across name, aliases, category, tags and summary
@@ -86,12 +88,13 @@ function serveStatic(pathname, res) {
     res.writeHead(403);
     return res.end("Forbidden");
   }
-  fs.readFile(file, (err, data) => {
+  const tryFile = fs.existsSync(file) && fs.statSync(file).isFile() ? file : file + ".html";
+  fs.readFile(tryFile, (err, data) => {
     if (err) {
       res.writeHead(404, { "Content-Type": "text/plain" });
       return res.end("Not found");
     }
-    res.writeHead(200, { "Content-Type": MIME[path.extname(file)] || "application/octet-stream" });
+    res.writeHead(200, { "Content-Type": MIME[path.extname(tryFile)] || "application/octet-stream" });
     res.end(data);
   });
 }
