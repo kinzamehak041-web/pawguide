@@ -1,0 +1,394 @@
+[
+  {
+    "id": "dog", "name": "Dog", "emoji": "🐶", "category": "Mammals",
+    "aliases": ["puppy", "kutta", "kutta", "canine"],
+    "tags": ["loyal", "family", "guard", "walks", "training"],
+    "summary": "Loyal, social companions that need daily exercise, training and lots of attention.",
+    "difficulty": "Medium", "lifespan": "10-15 years", "cost": "Medium-High", "size": "Small to giant depending on breed",
+    "diet": [
+      "Feed a complete dog food suited to age (puppy, adult, senior). Puppies eat 3-4 small meals a day, adults 2 meals.",
+      "Fresh clean water must always be available.",
+      "Cooked plain chicken, rice, boiled egg and carrots are safe occasional extras.",
+      "Treats should be under 10% of daily calories."
+    ],
+    "housing": [
+      "A quiet bed or crate in a warm, dry corner away from drafts.",
+      "Secure yard or leash walks; dogs must not be left tied all day.",
+      "Provide shade and cool water in summer; a warm blanket in winter."
+    ],
+    "daily": [
+      "30-90 minutes of walking or play depending on breed.",
+      "Two feeding times and fresh water changes.",
+      "Short training sessions (5-10 minutes) and affection."
+    ],
+    "grooming": [
+      "Brush 1-3 times a week (daily for long coats).",
+      "Bath every 4-6 weeks with dog shampoo only.",
+      "Trim nails monthly and brush teeth 2-3 times a week.",
+      "Check ears weekly for dirt or bad smell."
+    ],
+    "health": [
+      "Vaccinate: puppy series, then yearly boosters (including rabies).",
+      "Deworm regularly and use tick/flea prevention.",
+      "Vet check-up once a year; twice a year for seniors.",
+      "Warning signs: vomiting more than once, not eating for a day, limping, bloated belly, heavy panting."
+    ],
+    "training": [
+      "Start at 8 weeks: sit, come, stay, leave it.",
+      "Use rewards and praise; never hit or shout.",
+      "Socialize puppies early with people, sounds and other dogs.",
+      "Teach toilet routine: out after waking, eating and playing."
+    ],
+    "avoid": ["Chocolate", "Grapes and raisins", "Onion and garlic", "Cooked bones", "Xylitol (sweetener)", "Spicy or oily human food"],
+    "tips": ["Never leave a dog in a closed car.", "Microchip or ID tag helps if the dog gets lost.", "Choose a breed that fits your home size and energy."]
+  },
+  {
+    "id": "cat", "name": "Cat", "emoji": "🐱", "category": "Mammals",
+    "aliases": ["kitten", "billi", "feline"],
+    "tags": ["indoor", "independent", "litter", "cuddly"],
+    "summary": "Independent but affectionate pets that are clean, playful and good for apartments.",
+    "difficulty": "Easy-Medium", "lifespan": "12-18 years", "cost": "Medium", "size": "Small",
+    "diet": [
+      "Cats are obligate carnivores: feed high-protein cat food (wet food plus dry).",
+      "Kittens eat 3-4 times a day; adults 2 times.",
+      "Always keep fresh water; many cats prefer a fountain or wide bowl.",
+      "Cooked chicken or fish in small amounts is fine; cow milk can upset their stomach."
+    ],
+    "housing": [
+      "A clean litter box in a quiet spot, scooped daily and fully washed weekly.",
+      "A scratching post, a high perch and a cozy bed.",
+      "Keep windows and balconies safe with nets."
+    ],
+    "daily": [
+      "15-30 minutes of play with a wand toy or ball.",
+      "Scoop the litter, refresh water, feed meals.",
+      "Quiet time and gentle petting."
+    ],
+    "grooming": [
+      "Brush weekly (daily for long-haired cats).",
+      "Trim nails every 2-3 weeks.",
+      "Cats rarely need baths; wipe with a damp cloth if dirty.",
+      "Dental care: brush or use dental treats."
+    ],
+    "health": [
+      "Kitten vaccines, then yearly boosters; rabies vaccine too.",
+      "Deworm and use flea control.",
+      "Spay or neuter around 5-6 months unless breeding.",
+      "Warning signs: hiding for long, straining in the litter box, not eating, constant vomiting."
+    ],
+    "training": [
+      "Place the kitten in the litter box after meals; they learn fast.",
+      "Redirect scratching to a post with treats.",
+      "Use clicker or treats for simple tricks and carrier comfort."
+    ],
+    "avoid": ["Onion and garlic", "Chocolate", "Lilies (extremely toxic)", "Raw fish only diet", "Tuna-only diet", "Human painkillers"],
+    "tips": ["Indoor cats live longer.", "Introduce new pets slowly.", "Give each cat its own litter box (plus one extra)."]
+  },
+  {
+    "id": "rabbit", "name": "Rabbit", "emoji": "🐰", "category": "Mammals",
+    "aliases": ["bunny", "khargosh"],
+    "tags": ["hay", "gentle", "indoor", "herbivore"],
+    "summary": "Gentle, social herbivores that need lots of hay, space to hop and a calm home.",
+    "difficulty": "Medium", "lifespan": "8-12 years", "cost": "Low-Medium", "size": "Small-Medium",
+    "diet": [
+      "80% unlimited fresh hay (timothy or grass hay) - essential for teeth and digestion.",
+      "A handful of leafy greens daily (coriander, romaine, mint).",
+      "Small portion of rabbit pellets; carrots and fruit only as rare treats.",
+      "Fresh water in a heavy bowl or bottle."
+    ],
+    "housing": [
+      "Large pen or hutch at least 4x the rabbit's length, plus daily time outside it.",
+      "Keep cool: rabbits overheat above 28 C. Avoid direct sun.",
+      "Soft flooring (not wire) and a hiding box."
+    ],
+    "daily": [
+      "3-4 hours of free roaming in a safe area.",
+      "Fresh hay and greens twice a day.",
+      "Spot clean the toilet corner, full clean weekly."
+    ],
+    "grooming": [
+      "Brush weekly, daily when molting.",
+      "Trim nails every 4-6 weeks.",
+      "Never bathe in water; spot clean only."
+    ],
+    "health": [
+      "Teeth grow constantly; hay and chew sticks keep them worn.",
+      "Annual vet check and vaccines where available.",
+      "Warning signs: no droppings for 12 hours, not eating, head tilt, wet chin. These are emergencies."
+    ],
+    "training": [
+      "Rabbits can learn litter training and their name.",
+      "Be patient; let them come to you rather than picking them up suddenly.",
+      "Support the back legs when lifting."
+    ],
+    "avoid": ["Iceberg lettuce", "Chocolate", "Bread and biscuits", "Potato leaves", "Avocado", "Sudden loud noises"],
+    "tips": ["Rabbits are happier in bonded pairs.", "Bunny-proof wires.", "They hide pain well, so watch their behavior."]
+  },
+  {
+    "id": "parrot", "name": "Parrot", "emoji": "🦜", "category": "Birds",
+    "aliases": ["budgie", "tota", "parakeet", "cockatiel", "lovebird"],
+    "tags": ["talking", "colorful", "social", "cage"],
+    "summary": "Intelligent, social birds that need a big cage, mental stimulation and daily interaction.",
+    "difficulty": "Medium-Hard", "lifespan": "5-60 years (species dependent)", "cost": "Medium", "size": "Small to large",
+    "diet": [
+      "Quality seed and pellet mix as the base.",
+      "Fresh vegetables and fruit daily (carrot, spinach, apple without seeds).",
+      "Cuttlebone or mineral block for calcium.",
+      "Fresh water changed every day."
+    ],
+    "housing": [
+      "Cage wide enough for the bird to fully spread wings and climb.",
+      "Place at eye level in a bright room away from kitchen fumes.",
+      "Perches of different thickness, toys and a bath dish.",
+      "Cover at night for 10-12 hours of sleep."
+    ],
+    "daily": [
+      "1-2 hours out of the cage in a safe room.",
+      "Talk, whistle and play with them.",
+      "Remove old food; wash bowls."
+    ],
+    "grooming": [
+      "Offer a shallow bath or light misting weekly.",
+      "Nails and beak usually stay healthy with perches; a vet can trim if needed.",
+      "Feathers and wings should only be clipped by a professional."
+    ],
+    "health": [
+      "Fluffed feathers, sitting at the bottom, discharge from eyes or tail bobbing are warning signs.",
+      "Annual avian vet check.",
+      "Keep away from Teflon fumes, smoke and strong sprays; these can kill birds."
+    ],
+    "training": [
+      "Build trust first: sit near the cage and talk softly.",
+      "Step-up training with a treat.",
+      "Repeat words clearly; reward with attention."
+    ],
+    "avoid": ["Avocado", "Chocolate", "Caffeine", "Salt", "Apple seeds", "Non-stick cookware fumes"],
+    "tips": ["Birds need company; lonely parrots get stressed.", "Rotate toys to avoid boredom.", "Never leave in direct hot sun."]
+  },
+  {
+    "id": "hamster", "name": "Hamster", "emoji": "🐹", "category": "Mammals",
+    "aliases": ["hamsters", "rodent"],
+    "tags": ["small", "night", "cage", "wheel"],
+    "summary": "Tiny, nocturnal pets that are easy to keep but need a big cage and a wheel.",
+    "difficulty": "Easy", "lifespan": "2-3 years", "cost": "Low", "size": "Tiny",
+    "diet": [
+      "Hamster seed mix or pellets (1-2 tablespoons daily).",
+      "Small pieces of fresh veggies: carrot, cucumber, broccoli.",
+      "Occasional boiled egg or mealworm for protein.",
+      "Fresh water in a drip bottle."
+    ],
+    "housing": [
+      "Large cage with deep bedding for burrowing (paper bedding, not cedar).",
+      "A solid-surface exercise wheel (at least 20 cm for dwarf, 28 cm for Syrian).",
+      "House solitary Syrian hamsters alone."
+    ],
+    "daily": [
+      "Evening play and feeding as they wake.",
+      "Remove spoiled food from their hidden stash.",
+      "Spot clean weekly."
+    ],
+    "grooming": [
+      "Offer a sand bath; never water.",
+      "Nails wear down naturally on wheel and toys."
+    ],
+    "health": [
+      "Wet tail (diarrhea), overgrown teeth, weight loss and lethargy need a vet.",
+      "Keep temperature stable, 18-24 C."
+    ],
+    "training": [
+      "Let them sniff your hand first and handle gently over a soft surface.",
+      "Use treats to build trust."
+    ],
+    "avoid": ["Citrus", "Chocolate", "Onion and garlic", "Sticky foods", "Cedar or pine bedding"],
+    "tips": ["Never wake a sleeping hamster suddenly.", "Hamsters can bite when frightened."]
+  },
+  {
+    "id": "guinea-pig", "name": "Guinea Pig", "emoji": "🐹", "category": "Mammals",
+    "aliases": ["cavy", "guinea pigs"],
+    "tags": ["vitamin c", "social", "small"],
+    "summary": "Gentle, chatty small pets that need vitamin C, hay and a friend.",
+    "difficulty": "Easy-Medium", "lifespan": "5-8 years", "cost": "Low-Medium", "size": "Small",
+    "diet": [
+      "Unlimited hay daily.",
+      "Vitamin C-rich vegetables: bell pepper, parsley, kale.",
+      "Small amount of guinea pig pellets with added vitamin C.",
+      "Fresh water always."
+    ],
+    "housing": [
+      "Large cage or pen, at least 0.7 square metres for two animals.",
+      "Soft bedding and a hide house.",
+      "Keep away from heat and drafts."
+    ],
+    "daily": [
+      "Fresh veggies and hay twice a day.",
+      "An hour of floor time.",
+      "Spot clean daily; full clean weekly."
+    ],
+    "grooming": [
+      "Brush long-haired breeds daily.",
+      "Trim nails monthly.",
+      "Bathe only when needed with guinea pig safe shampoo."
+    ],
+    "health": [
+      "They cannot make vitamin C; deficiency causes scurvy.",
+      "Watch for sneezing, weight loss, overgrown teeth.",
+      "Annual vet check by an exotic-animal vet."
+    ],
+    "training": [
+      "Hand-feed veggies to build trust.",
+      "Talk gently; they respond to routine."
+    ],
+    "avoid": ["Iceberg lettuce", "Chocolate", "Onion", "Seeds and nuts", "Rabbit food"],
+    "tips": ["Keep them in pairs.", "Hay is not optional."]
+  },
+  {
+    "id": "fish", "name": "Fish", "emoji": "🐠", "category": "Aquatic",
+    "aliases": ["goldfish", "betta", "aquarium", "machli", "tropical fish"],
+    "tags": ["tank", "water", "filter", "aquarium"],
+    "summary": "Calm, beautiful pets; success depends on clean, stable water.",
+    "difficulty": "Easy-Medium", "lifespan": "2-15 years (species dependent)", "cost": "Low-Medium", "size": "Small",
+    "diet": [
+      "Feed good flake or pellet food made for your species.",
+      "Feed only what they finish in 2 minutes, once or twice a day.",
+      "Overfeeding is the number one cause of dirty tanks."
+    ],
+    "housing": [
+      "Bigger tanks are more stable: goldfish need 75 L+ each, betta 20 L+.",
+      "Use a filter, heater for tropical fish and dechlorinated water.",
+      "Cycle the tank (grow beneficial bacteria) for 4-6 weeks before adding fish."
+    ],
+    "daily": [
+      "Feed and check fish look active.",
+      "Check temperature and that the filter works."
+    ],
+    "grooming": [
+      "Change 20-30% of the water weekly.",
+      "Rinse filter media in old tank water, not tap water.",
+      "Wipe algae from glass."
+    ],
+    "health": [
+      "White spots, torn fins, gasping at the surface or clamped fins mean poor water or disease.",
+      "Test ammonia, nitrite and nitrate regularly.",
+      "Quarantine new fish for 2 weeks."
+    ],
+    "training": ["Fish learn feeding time and may eat from your hand."],
+    "avoid": ["Tap water without conditioner", "Overstocking", "Soap near the tank", "Mixing aggressive species"],
+    "tips": ["Bettas live alone.", "Never dump all water at once."]
+  },
+  {
+    "id": "turtle", "name": "Turtle", "emoji": "🐢", "category": "Reptiles",
+    "aliases": ["tortoise", "kachwa", "terrapin"],
+    "tags": ["shell", "long life", "uv", "basking"],
+    "summary": "Long-lived reptiles needing UV light, a basking spot and clean water or a proper habitat.",
+    "difficulty": "Medium-Hard", "lifespan": "25-80+ years", "cost": "Medium-High", "size": "Small to large",
+    "diet": [
+      "Water turtles: turtle pellets plus leafy greens and occasional insects or fish.",
+      "Tortoises: mostly leafy greens, weeds and some vegetables; little fruit.",
+      "Provide calcium (cuttlebone) and keep a UVB light."
+    ],
+    "housing": [
+      "Aquatic turtles need a large tank (10 gallons per inch of shell) with filter and dry basking dock.",
+      "Tortoises need a spacious pen with hide and substrate for burrowing.",
+      "UVB lamp 10-12 hours daily; replace every 6-12 months."
+    ],
+    "daily": [
+      "Feed and refresh water.",
+      "Ensure basking heat 30-35 C and UVB working."
+    ],
+    "grooming": [
+      "Do not scrub the shell hard; a soft brush is enough.",
+      "Change tank water often."
+    ],
+    "health": [
+      "Soft shell, swollen eyes, runny nose or refusing food need a reptile vet.",
+      "Wash hands after handling; turtles can carry Salmonella."
+    ],
+    "training": ["Turtles learn feeding routine; handle rarely."],
+    "avoid": ["Dog or cat food", "Iceberg lettuce", "Cold rooms", "Wild collection"],
+    "tips": ["Turtles can outlive you - plan long term.", "Check local laws before buying."]
+  },
+  {
+    "id": "chicken", "name": "Chicken", "emoji": "🐔", "category": "Farm",
+    "aliases": ["hen", "murghi", "rooster", "backyard chickens"],
+    "tags": ["eggs", "coop", "farm", "poultry"],
+    "summary": "Productive backyard birds that give eggs and need a safe coop and daily feed.",
+    "difficulty": "Easy-Medium", "lifespan": "5-8 years", "cost": "Low", "size": "Medium",
+    "diet": [
+      "Layer feed with calcium for hens, chick starter for chicks.",
+      "Kitchen scraps (veggies, grains) in moderation; clean water always.",
+      "Provide grit and oyster shell."
+    ],
+    "housing": [
+      "Predator-proof coop with 0.4 sq m per bird indoors and run space outside.",
+      "Perches, nest boxes (1 per 4 hens) and good ventilation.",
+      "Dry bedding such as straw or wood shavings."
+    ],
+    "daily": [
+      "Let out in the morning, collect eggs, check water and feed.",
+      "Lock the coop at dusk."
+    ],
+    "grooming": ["Provide a dust bath area.", "Check for mites and lice monthly."],
+    "health": [
+      "Vaccinate against common poultry diseases (Newcastle, Marek's).",
+      "Deworm regularly.",
+      "Isolate any sick bird immediately."
+    ],
+    "training": ["Hens learn to come when called with treats."],
+    "avoid": ["Avocado", "Chocolate", "Raw dry beans", "Moldy food", "Onion in large amounts"],
+    "tips": ["Keep feed in sealed containers to avoid rodents.", "Clean the coop weekly."]
+  },
+  {
+    "id": "goat", "name": "Goat", "emoji": "🐐", "category": "Farm",
+    "aliases": ["bakri", "bakra", "kid goat"],
+    "tags": ["milk", "farm", "livestock", "grazing"],
+    "summary": "Hardy, curious farm animals that give milk and need dry shelter and good forage.",
+    "difficulty": "Medium", "lifespan": "10-15 years", "cost": "Low-Medium", "size": "Medium",
+    "diet": [
+      "Good hay, browse (leaves, shrubs) and clean water.",
+      "Mineral supplement made for goats; grain in small amounts for milking or growing goats.",
+      "Introduce new feed slowly."
+    ],
+    "housing": [
+      "Dry, draft-free shelter and a strong fence.",
+      "Raised platforms to climb and rest.",
+      "Keep dry bedding; goats dislike mud and rain."
+    ],
+    "daily": [
+      "Grazing or browsing 6-8 hours, fresh water, health check by eye.",
+      "Milking twice a day for dairy goats."
+    ],
+    "grooming": ["Trim hooves every 6-8 weeks.", "Brush coat occasionally."],
+    "health": [
+      "Vaccinate (CD&T) and deworm per vet advice.",
+      "Watch for diarrhea, bloat, lameness and loss of appetite.",
+      "Ask a livestock vet about local diseases."
+    ],
+    "training": ["Goats learn routines, leading and milking stand easily."],
+    "avoid": ["Moldy hay", "Sudden grain increase", "Wild cherry, rhododendron", "Lone housing"],
+    "tips": ["Goats are herd animals; keep at least two.", "Fence must be tall and strong."]
+  },
+  {
+    "id": "ferret", "name": "Ferret", "emoji": "🦦", "category": "Mammals",
+    "aliases": ["ferrets"],
+    "tags": ["playful", "carnivore", "exotic"],
+    "summary": "Playful, curious carnivores that need high-protein food and plenty of out-of-cage time.",
+    "difficulty": "Hard", "lifespan": "6-10 years", "cost": "Medium-High", "size": "Small",
+    "diet": [
+      "High-quality ferret food or a meat-based diet with high protein and fat.",
+      "No fruit, sugar or vegetables in large amounts."
+    ],
+    "housing": [
+      "Multi-level cage with hammocks and a litter corner.",
+      "At least 4 hours out of the cage daily in a ferret-proofed room."
+    ],
+    "daily": ["Play, feeding twice or more, litter cleaning."],
+    "grooming": ["Bathe rarely (every 1-3 months).", "Trim nails every 2 weeks and clean ears."],
+    "health": [
+      "Annual vaccines and vet check; ferrets are prone to adrenal disease.",
+      "Keep cool; they overheat easily."
+    ],
+    "training": ["Litter training works with patience; use treats for tricks."],
+    "avoid": ["Sugary food", "Dairy", "Chocolate", "Small rubber items they might swallow"],
+    "tips": ["Check local laws.", "Ferrets sleep up to 18 hours a day."]
+  }
+]

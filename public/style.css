@@ -1,0 +1,71 @@
+:root {
+  --bg: #fffaf3;
+  --ink: #2b2118;
+  --muted: #6d5f52;
+  --brand: #e2711d;
+  --brand-dark: #b9560f;
+  --card: #ffffff;
+  --line: #f0e3d2;
+  --green: #2f8f5b;
+  --red: #c0392b;
+  --radius: 16px;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: var(--bg); color: var(--ink); line-height: 1.6;
+}
+.hero {
+  background: linear-gradient(135deg, #ffe3c2 0%, #ffd2a1 50%, #f9b97a 100%);
+  padding-bottom: 48px;
+}
+.nav { max-width: 1100px; margin: auto; padding: 18px 20px; }
+.logo { font-weight: 800; font-size: 1.4rem; color: var(--brand-dark); text-decoration: none; }
+.hero-inner { max-width: 760px; margin: 24px auto 0; padding: 0 20px; text-align: center; }
+.hero h1 { font-size: clamp(1.8rem, 5vw, 2.8rem); margin: 0 0 10px; line-height: 1.2; }
+.hero p { color: #5a4636; margin: 0 0 22px; }
+.search { display: flex; gap: 8px; background: #fff; padding: 8px; border-radius: 999px; box-shadow: 0 8px 24px rgba(120, 70, 20, .18); }
+.search input { flex: 1; border: 0; outline: 0; padding: 12px 18px; font-size: 1rem; background: transparent; min-width: 0; }
+.search button { border: 0; background: var(--brand); color: #fff; padding: 12px 26px; border-radius: 999px; font-weight: 700; cursor: pointer; font-size: 1rem; }
+.search button:hover { background: var(--brand-dark); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 16px; }
+.chip { border: 1px solid rgba(0,0,0,.08); background: rgba(255,255,255,.7); padding: 6px 14px; border-radius: 999px; cursor: pointer; font-size: .9rem; }
+.chip.active, .chip:hover { background: #fff; border-color: var(--brand); color: var(--brand-dark); }
+
+.container { max-width: 1100px; margin: 0 auto; padding: 32px 20px 60px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 22px; cursor: pointer; transition: transform .15s, box-shadow .15s; text-align: left;
+}
+.card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(120, 70, 20, .14); }
+.card .emoji { font-size: 2.6rem; }
+.card h3 { margin: 6px 0 4px; }
+.card p { margin: 0 0 12px; color: var(--muted); font-size: .95rem; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { background: #fff1de; color: var(--brand-dark); font-size: .78rem; padding: 3px 10px; border-radius: 999px; font-weight: 600; }
+.empty { text-align: center; color: var(--muted); padding: 40px 0; }
+
+.back { background: none; border: 0; color: var(--brand-dark); font-weight: 700; cursor: pointer; font-size: 1rem; padding: 0; margin-bottom: 16px; }
+.detail-head { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; margin-bottom: 18px; }
+.detail-head .emoji { font-size: 4rem; }
+.detail-head h2 { margin: 0; font-size: 2rem; }
+.detail-head p { margin: 4px 0 0; color: var(--muted); }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 20px 0 28px; }
+.fact { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; }
+.fact small { color: var(--muted); display: block; font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; }
+.fact strong { font-size: 1.05rem; }
+.sections { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; }
+.section { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; }
+.section h3 { margin: 0 0 10px; }
+.section ul { margin: 0; padding-left: 20px; }
+.section li { margin-bottom: 6px; }
+.section.warn { border-color: #f3c9c3; background: #fff6f5; }
+.section.warn h3 { color: var(--red); }
+.section.tipbox { border-color: #bfe3cf; background: #f4fbf7; }
+.section.tipbox h3 { color: var(--green); }
+.footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 24px 20px 40px; border-top: 1px solid var(--line); }
+@media (max-width: 520px) {
+  .search { border-radius: 18px; flex-direction: column; }
+  .search button { width: 100%; }
+}

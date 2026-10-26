@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PawGuide - Pet Care Encyclopedia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a href="#" class="logo" id="home-link">🐾 PawGuide</a>
+    </nav>
+    <div class="hero-inner">
+      <h1>Learn how to raise and care for any pet</h1>
+      <p>Search a pet and get its food, housing, grooming, health, training and daily routine in one place.</p>
+      <form id="search-form" class="search">
+        <input id="q" type="search" placeholder="Search: dog, cat, rabbit, parrot, fish..." autocomplete="off" aria-label="Search pets">
+        <button type="submit">Search</button>
+      </form>
+      <div id="chips" class="chips"></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="list-view">
+      <h2 id="list-title">All pets</h2>
+      <div id="grid" class="grid"></div>
+      <p id="empty" class="empty" hidden>No pet found. Try another name like "cat" or "bird".</p>
+    </section>
+
+    <article id="detail-view" hidden>
+      <button id="back" class="back">← Back to all pets</button>
+      <div id="detail"></div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>PawGuide is for general information. For illness or emergencies, always visit a qualified veterinarian.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
