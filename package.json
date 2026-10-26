@@ -2,9 +2,9 @@
   "name": "pet-care-guide",
   "version": "1.0.0",
   "description": "Search any pet and learn how to raise and care for it",
-  "main": "server.js",
+  "main": "local-server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "local-server.js"
   },
   "engines": {
     "node": ">=14"
